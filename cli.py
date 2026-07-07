@@ -1,21 +1,4 @@
 #!/usr/bin/env python3
-"""
-CLI entry point for the Binance Futures Testnet trading bot.
-
-Examples:
-    # Market order
-    python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
-
-    # Limit order
-    python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 60000
-
-    # Bonus: stop-limit order
-    python cli.py --symbol BTCUSDT --side BUY --type STOP_LIMIT --quantity 0.01 \\
-        --price 60000 --stop-price 59500
-
-    # Validate input only, without sending anything to Binance
-    python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01 --dry-run
-"""
 from __future__ import annotations
 
 import argparse
