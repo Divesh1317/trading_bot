@@ -1,0 +1,4 @@
+2026-07-07 10:35:42 | INFO     | trading_bot | === SAMPLE LOG (limit_order) — network call mocked, no live Binance request made ===
+2026-07-07 10:35:42 | INFO     | trading_bot.client | Initialized Binance Futures client (testnet=True, base_url=https://testnet.binancefuture.com)
+2026-07-07 10:35:42 | INFO     | trading_bot.orders | Placing order: symbol=BTCUSDT, side=SELL, type=LIMIT, quantity=0.01, price=60000.0, time_in_force=GTC
+2026-07-07 10:35:42 | INFO     | trading_bot.orders | Order placed successfully: orderId=3454832130 status=NEW executedQty=0

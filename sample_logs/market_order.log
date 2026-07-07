@@ -1,0 +1,4 @@
+2026-07-07 10:35:42 | INFO     | trading_bot | === SAMPLE LOG (market_order) — network call mocked, no live Binance request made ===
+2026-07-07 10:35:42 | INFO     | trading_bot.client | Initialized Binance Futures client (testnet=True, base_url=https://testnet.binancefuture.com)
+2026-07-07 10:35:42 | INFO     | trading_bot.orders | Placing order: symbol=BTCUSDT, side=BUY, type=MARKET, quantity=0.01
+2026-07-07 10:35:42 | INFO     | trading_bot.orders | Order placed successfully: orderId=3454832129 status=FILLED executedQty=0.01
