@@ -38,15 +38,6 @@ trading_bot/
    pip install -r requirements.txt
    ```
 
-3. **Set your credentials** as environment variables.
-
-   **macOS / Linux:**
-   ```bash
-   cp .env.example .env
-   # edit .env and fill in BINANCE_API_KEY / BINANCE_API_SECRET, then:
-   export $(grep -v '^#' .env | xargs)
-   ```
-
    **Windows — pick whichever matches your setup:**
 
    - **Command Prompt (cmd.exe)** — sets the variable for that window only:
@@ -54,14 +45,6 @@ trading_bot/
      set BINANCE_API_KEY=your_testnet_api_key_here
      set BINANCE_API_SECRET=your_testnet_api_secret_here
      ```
-
-   - **PowerShell** — sets the variable for that session only:
-     ```powershell
-     $env:BINANCE_API_KEY = "your_testnet_api_key_here"
-     $env:BINANCE_API_SECRET = "your_testnet_api_secret_here"
-     ```
-     Both of the above only last until you close the window. Run
-     `python cli.py ...` in the *same* window right after.
 
    - **Persist it permanently (Windows System Properties)** — so you don't
      have to re-set it every session:
